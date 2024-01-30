@@ -7,10 +7,10 @@ const addButton = () => {
             let header     = document.querySelector( ".r-header-row" );
             let controlbar = document.querySelector( ".vjs-control-bar" );
             let button     = document.createElement( "button" );
+            button.className = "cstm_zoom_button";
 
-            button.textContent = "ON/OFF";
-            button.classList.add( "cstm_zoom_button" );
-            console.log( header );
+            button.textContent = "Control bar display ON/OFF";
+
             if( header ) {
                 header.appendChild( button );
 
@@ -22,7 +22,7 @@ const addButton = () => {
                     } else {
                         controlbar.style.display = "none";
                     }
-                });
+                } );
             } else {
                 console.log( "header not found" );
             }
