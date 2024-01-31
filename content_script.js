@@ -1,5 +1,5 @@
 const addButton = () => {
-    const jsInitCheckTimer = setInterval( jsLoaded, 100 );
+    const jsInitCheckTimer = setInterval( jsLoaded, 1000 );
 
     function jsLoaded( event ) {
         if ( document.querySelector( ".r-header-row" ) != null ) {
@@ -23,8 +23,6 @@ const addButton = () => {
                         controlbar.style.display = "none";
                     }
                 } );
-            } else {
-                console.log( "header not found" );
             }
         }
     }

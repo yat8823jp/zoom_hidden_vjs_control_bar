@@ -9,6 +9,9 @@ Add a button from hide the video control bar.
 3. click to on/off button.
 
 ## Changelog
+= 1.0.2 =
+* Bug fix to Can't see in a regular account
+
 = 1.0.1 =
 * Delete unnecessary files
 

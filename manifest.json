@@ -9,12 +9,11 @@
         "48": "images/icon48.jpg",
         "128": "images/icon128.jpg"
     },
-    "host_permissions": [ "https://zoom.us/rec/play/*" ],
+    "host_permissions": [ "https://*.zoom.us/rec/play/*" ],
     "author": "yat@yat-net.com",
-    "permissions": [ "activeTab" ],
     "content_scripts": [
         {
-            "matches": [ "https://zoom.us/rec/play/*" ],
+            "matches": [ "https://*.zoom.us/rec/play/*" ],
             "js": [ "content_script.js" ],
             "css": [ "style.css" ],
             "run_at": "document_end",
