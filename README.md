@@ -12,6 +12,9 @@ If you click to button zoom_hidden_vjs_control_bar to your ZOOM control bar hidd
 
 ## Changelog
 
+= 1.1.1 =
+* Bug fix to control bar ui lost
+
 = 1.1.0 =
 * Change button text.
 

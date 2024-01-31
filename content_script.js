@@ -17,11 +17,11 @@ const addButton = () => {
                 let cstm_zoom_btn = document.querySelector( ".cstm_zoom_button" );
 
                 cstm_zoom_btn.addEventListener( "click", function () {
-                    if ( controlbar.style.display == "none" ) {
-                        controlbar.style.display = "block";
+                    if ( controlbar.style.visibility == "hidden" ) {
+                        controlbar.style.visibility = "visible";
                         button.textContent = "Control bar display ON";
                     } else {
-                        controlbar.style.display = "none";
+                        controlbar.style.visibility = "hidden";
                         button.textContent = "Control bar display OFF";
                     }
                 } );
