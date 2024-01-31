@@ -19,8 +19,10 @@ const addButton = () => {
                 cstm_zoom_btn.addEventListener( "click", function () {
                     if ( controlbar.style.display == "none" ) {
                         controlbar.style.display = "block";
+                        button.textContent = "Control bar display ON";
                     } else {
                         controlbar.style.display = "none";
+                        button.textContent = "Control bar display OFF";
                     }
                 } );
             }
